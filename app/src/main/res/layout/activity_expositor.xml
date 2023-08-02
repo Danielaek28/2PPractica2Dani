@@ -35,18 +35,19 @@
 
 
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="45dp"
-            android:text="asistente " />
+            android:text="Registrar " />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#D50079"
             android:layout_marginTop="45dp"
-            android:text="expositor" />
+            android:text="Regresar a inicio " />
+    </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
