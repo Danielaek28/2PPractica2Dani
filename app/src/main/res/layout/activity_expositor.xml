@@ -49,5 +49,5 @@
             android:layout_marginTop="45dp"
             android:text="Regresar a inicio " />
     </LinearLayout>
-    </LinearLayout>
+
 </RelativeLayout>
