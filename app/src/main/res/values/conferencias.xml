@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conferencias">
+        <item>Elegir uno</item>
+        <item>Conferencia de Ciencia, Innovación y Tecnologías</item>
+        <item>Conferencia de Directores y Decanos de Ingeniería Informática </item>
+        <item>Conferencia Latinoamericana de Informática </item>
+
+    </string-array>
+</resources>

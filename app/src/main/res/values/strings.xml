@@ -5,4 +5,5 @@
     <string name="texto">Registrar para impartir conferencia </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="registro">Expositor</string>
+    <string name="titulo2">Elegir conferencia</string>
 </resources>
