@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Informatica"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDOS "
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#00B8D4"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00B8D4"
+        android:text="@string/descripcion"
+        android:layout_marginTop="74dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text3"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/img1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro"
+        android:layout_marginTop="300dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:textSize="25dp">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="45dp"
+            android:text="asistente " />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D50079"
+            android:layout_marginTop="45dp"
+            android:text="expositor" />
+    </LinearLayout>
+</RelativeLayout>
