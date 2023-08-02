@@ -27,7 +27,7 @@ public class asistente extends AppCompatActivity {
 
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long i) {
                 Toast.makeText(getApplicationContext(), "El elemento seleccionado es:" + adapterView.getItemAtPosition(position), Toast.LENGTH_LONG).show();
-                Intent i= new Intent(getApplicationContext(),inicio.class);
+                Intent i = new Intent(getApplicationContext(),inicio.class);
                 startActivity(i);
             }
 
